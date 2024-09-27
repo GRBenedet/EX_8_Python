@@ -10,7 +10,7 @@ if idade == 18 or idade == 17:
     print('esta na hora de se alistar.')
 
 elif idade > 18:
-    print('Seu alistamento esta atrasado em {} anos.'.format(idade - 18))
+    print('Seu alistamento esta atrasado em {} anos.'.format(18 - idade))
 
 else:
-    print('falta {} anos para para seu alistamente.'.format(idade - 18))
+    print('falta {} anos para para seu alistamente.'.format(18 - idade))
